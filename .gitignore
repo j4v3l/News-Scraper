@@ -2,7 +2,7 @@
 .env
 
 # Hide the Sqlite database
-database.db
+storage/database.db
 
 # Hide chrome driver
 chromedriver
