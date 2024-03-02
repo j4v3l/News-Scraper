@@ -1,0 +1,4 @@
+CHROMEDRIVER_PATH=/usr/local/bin/chromedriver
+BASE_URL_NEWS="https://www.jamaicaobserver.com/category/news/"
+BASE_URL="https://www.jamaicaobserver.com"
+PAGINATION_SUFFIX= "?host=www-jamaicaobserver-com.newsmemory.net"

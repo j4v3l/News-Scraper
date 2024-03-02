@@ -1,0 +1,12 @@
+# .dockerignore
+Dockerfile
+docker-compose.yml
+storage/database.db 
+.env
+.vscode
+.venv
+.git
+.gitignore
+**/__pycache__
+.envexample
+.dockerignore

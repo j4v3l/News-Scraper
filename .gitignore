@@ -1,0 +1,21 @@
+# .env file
+.env
+
+# Hide the Sqlite database
+database.db
+
+# Hide chrome driver
+chromedriver
+
+# Hide .venv, .vscode
+.venv
+.vscode
+
+# Hide __pycache__ in all directories
+__pycache__/
+
+# Hide main_* files
+main_*.py
+
+# Hide chrome driver
+chromedriver
