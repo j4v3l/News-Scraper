@@ -27,7 +27,6 @@ This project is a web scraper that fetches articles from the Jamaica Observer ne
 ├── start.sh
 └── storage
 ```
-
 ## Setup
 
 1. Clone the repository.
@@ -44,40 +43,3 @@ The scraper is started by running `main.py`. By default, it only displays articl
 
 Web scraping should be done responsibly. As of the time of writing, the Jamaica Observer's `robots.txt` file does not disallow scraping. However, always check the website's `robots.txt` file and terms of service to ensure that you're allowed to scrape it. Be respectful of the website's resources and don't overload their servers with too many requests at once. This scraper is intended for educational purposes and should not be used to violate any laws or terms of service.
 ```
-
-Please replace the placeholders with the actual values. For example, replace `jamaica-observer-scraper` with the actual name of your Docker image.
-```
-
-## Setup
-
-1. Clone the repository.
-2. Install the dependencies by running `pip install -r requirements.txt`.
-3. Set up your environment variables in a `.env` file. You'll need to set `CHROMEDRIVER_PATH`, `BASE_URL_NEWS`, and `BASE_URL`.
-4. Build the Docker image by running `docker build -t jamaica-observer-scraper .`.
-5. Run the Docker container by running `docker run -p 1876:1876 jamaica-observer-scraper`.
-
-## Usage
-
-The scraper is started by running `main.py`. By default, it only displays articles that have a date, body, and image. To display all articles, set the `show_all` parameter to `True` when calling `scrape_jamaica_observer()`.
-
-## Warning
-
-Web scraping should be done responsibly. As of the time of writing, the Jamaica Observer's `robots.txt` file does not disallow scraping. However, always check the website's `robots.txt` file and terms of service to ensure that you're allowed to scrape it. Be respectful of the website's resources and don't overload their servers with too many requests at once. This scraper is intended for educational purposes and should not be used to violate any laws or terms of service.
-```
-
-Please replace the placeholders with the actual values. For example, replace `jamaica-observer-scraper` with the actual name of your Docker image.
-## Setup
-
-1. Clone the repository.
-2. Install the dependencies by running `pip install -r requirements.txt`.
-3. Set up your environment variables in a `.env` file. You'll need to set `CHROMEDRIVER_PATH`, `BASE_URL_NEWS`, and `BASE_URL`.
-4. Build the Docker image by running `docker build -t jamaica-observer-scraper .`.
-5. Run the Docker container by running `docker run -p 1876:1876 jamaica-observer-scraper`.
-
-## Usage
-
-The scraper is started by running `main.py`. By default, it only displays articles that have a date, body, and image. To display all articles, set the `show_all` parameter to `True` when calling `scrape_jamaica_observer()`.
-
-## Warning
-
-Web scraping should be done responsibly. As of the time of writing, the Jamaica Observer's `robots.txt` file does not disallow scraping. However, always check the website's `robots.txt` file and terms of service to ensure that you're allowed to scrape it. Be respectful of the website's resources and don't overload their servers with too many requests at once. This scraper is intended for educational purposes and should not be used to violate any laws or terms of service.
